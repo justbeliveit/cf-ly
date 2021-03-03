@@ -7,9 +7,9 @@ mkdir dns
 进入目录
 cd dns
 下载优选ip文件
-wget https://raw.githubusercontent.com/wxfyes/cf/main/cf-openwrt.sh
+wget https://raw.githubusercontent.com/laowagong/cf-ly/cf-openwrt.sh
 下载杀进程文件
-wget https://raw.githubusercontent.com/wxfyes/cf/main/kill-cf-openwrt.sh
+wget https://raw.githubusercontent.com/laowagong/cf-ly/kill-cf-openwrt.sh
 1
 2
 3
