@@ -29,6 +29,21 @@ wget https://raw.githubusercontent.com/laowagong/cf-ly/main/cf-openwrt.sh
 下载杀进程文件
 
 wget https://raw.githubusercontent.com/laowagong/cf-ly/main/kill-cf-openwrt.sh
+
+ls 命令显示当前目录的内容
+
+ls
+
+修改编辑cf-openwrt.sh
+
+vi cf-openwrt.sh
+编辑修改
+
+i
+
+保存
+
+:wq
 ```
 
 修改cf-openwrt.sh中的两处地方，一处是带宽选择（默认20，可根据自己网络修改数值大小），一处是微信推送token（白下面微信扫码、一对一推送获得获取token复制替换最底行代码“微信推送key"保存完成。
