@@ -37,6 +37,7 @@ ls
 修改编辑cf-openwrt.sh
 
 vi cf-openwrt.sh
+
 编辑修改
 
 i
