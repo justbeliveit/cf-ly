@@ -30,19 +30,19 @@ wget https://raw.githubusercontent.com/laowagong/cf-ly/main/cf-openwrt.sh
 
 wget https://raw.githubusercontent.com/laowagong/cf-ly/main/kill-cf-openwrt.sh
 
-ls 命令显示当前目录的内容
+显示当前目录的内容
 
 ls
 
-修改编辑cf-openwrt.sh
+修改cf-openwrt.sh
 
 vi cf-openwrt.sh
 
-编辑修改
+进入编辑模式
 
 i
 
-保存
+退出编辑并保存
 
 :wq
 ```
