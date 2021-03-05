@@ -58,7 +58,7 @@ pushplus API接口申请地址：https://pushplus.hxtrip.com  微信扫码登录
 添加一下命令
 
  ```bash
-0 6 * * * bash /usr/dns/cf-openwrt.shr
+0 6 * * * bash /usr/dns/cf-openwrt.sh
 
 5 6 * * * bash /usr/dns/kill-cf-openwrt
 ```
@@ -70,7 +70,7 @@ pushplus API接口申请地址：https://pushplus.hxtrip.com  微信扫码登录
  到这里就完成全部操作了，剩下的就是等待自动执行，当然，在自动执行之前，我们也可手动来执行一次，执行命令：
  
  ```bash
-bash /usr/dns/cf-openwrt.shr
+bash /usr/dns/cf-openwrt.sh
 ```
 
 # 申明
