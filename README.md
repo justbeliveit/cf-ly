@@ -7,3 +7,20 @@
 # 教程
 用ssh连接软件连接opewrt
 
+具体编译使用流程如下
+ 
+ ```bash
+cd /usr
+
+创建dns目录
+
+cd linux
+
+./configure
+
+make
+
+cd src
+
+sudo ./cf.sh
+```
