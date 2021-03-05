@@ -57,3 +57,6 @@ pushplus API接口申请地址：https://pushplus.hxtrip.com  微信扫码登录
 0 6 * * * bash /usr/dns/cf-openwrt.shr
 ```
 
+# 申明
+
+教程收集于网络，仅供自己学习备用
