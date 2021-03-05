@@ -18,7 +18,7 @@ cd /usr
 
 mkdir dns
 
-进入目录
+进入dns目录
 
 cd dns
 
