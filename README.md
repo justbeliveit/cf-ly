@@ -28,3 +28,5 @@ wget https://raw.githubusercontent.com/laowagong/cf-ly/main/cf-openwrt.sh
 
 wget https://raw.githubusercontent.com/laowagong/cf-ly/main/kill-cf-openwrt.sh
 ```
+
+修改cf-openwrt.sh中的两处地方，一处是带宽选择，一处是微信推送token
