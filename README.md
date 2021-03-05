@@ -14,13 +14,17 @@ cd /usr
 
 创建dns目录
 
-cd linux
+mkdir dns
 
-./configure
+进入目录
 
-make
+cd dns
 
-cd src
+下载优选ip文件
 
-sudo ./cf.sh
+wget https://raw.githubusercontent.com/laowagong/cf-ly/main/cf-openwrt.sh
+
+下载杀进程文件
+
+wget https://raw.githubusercontent.com/laowagong/cf-ly/main/kill-cf-openwrt.sh
 ```
