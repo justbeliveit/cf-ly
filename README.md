@@ -33,3 +33,15 @@ wget https://raw.githubusercontent.com/laowagong/cf-ly/main/kill-cf-openwrt.sh
 
 pushplus API接口申请地址：https://pushplus.hxtrip.com  微信扫码登录获取token
 
+添加计划任务
+
+依次进入 系统-计划任务
+
+添加一下命令
+
+ ```bash
+0 6 * * * bash /usr/dns/cf-openwrt.shr ##0代表分6代表小时，意思是7：00整开始运行脚本
+
+5 6 * * * bash /usr/dns/kill-cf-openwrt
+```
+
