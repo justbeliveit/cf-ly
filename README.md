@@ -47,7 +47,7 @@ i
 :wq
 ```
 
-修改cf-openwrt.sh中的两处地方，一处是带宽选择（默认20，可根据自己网络修改数值大小），一处是微信推送token（点击下面网址进入微信扫码、一对一推送、获得获取token复制替换最底行代码“微信推送key"保存完成。
+修改cf-openwrt.sh中的两处地方，一处是带宽选择（默认20，可根据自己网络修改数值大小），一处是微信推送token（点击下面网址进入微信扫码、一对一推送、获取token复制替换最底行代码“微信推送key"保存完成。
 
 pushplus API接口申请地址：https://pushplus.hxtrip.com  微信扫码登录获取token
 
@@ -60,7 +60,7 @@ pushplus API接口申请地址：https://pushplus.hxtrip.com  微信扫码登录
  ```bash
 0 6 * * * bash /usr/dns/cf-openwrt.sh
 
-5 6 * * * bash /usr/dns/kill-cf-openwrt
+5 6 * * * bash /usr/dns/kill-cf-openwrt.sh
 ```
 
 其中0代表分、6代表小时，意思是6：00整开始运行脚本,6:05结束脚本，可根据自己实际情况修改。
