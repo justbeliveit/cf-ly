@@ -1,6 +1,6 @@
 #!/bin/bash
 # random cloudflare anycast ip
-#使用说明：加在openwrt上系统--计划任务里添加定时运行，如30 8 * * * bash /usr/dns/cf-openwrt.sh     8点30运行一次。路由上的爬墙软件节点IP全部换成路由IP，如192.168.1.1，端口全部8443
+#使用说明：加在openwrt上系统--计划任务里添加定时运行不错，如30 8 * * * bash /usr/dns/cf-openwrt.sh     8点30运行一次。路由上的爬墙软件节点IP全部换成路由IP，如192.168.1.1，端口全部8443
 
 
 declare -i bandwidth
